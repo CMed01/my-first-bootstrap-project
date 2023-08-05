@@ -11,54 +11,151 @@
 
     </head>
     <body>
-        <article
-            class="container">
+        <nav class="navbar navbar-light bg-light navbar-expand-sm">
+            <a href="/" class="navbar-brand">Whisky Drop</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="/">About</a>
+                </li>
+                <li class="nav-item mr-2 d-block d-md-none">
+                    <a class="nav-link" href="/">Sign In / Sign Up</a>
+                </li>
+            </ul>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2">
+                    <i>Great whikey delivered to your door!</i>
+                </p>
+                <a href="/login">Sign In / Sign Up</a>
+            </div>
+        </nav>
+        <article class="container mt-3">
+            <div class="row"></div>
+            <div
+                class="col-12">
+                <!-- Callout -->
+                <section class="callou jumbotron">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                            <strong>
+                                <mark>First one is free!</mark>
+                            </strong>
+                    </p>
+                    <button class="btn btn-lg btn-success">Sign Up!</button>
+                    <p class="text-muted">
+                        <small>You must be over 18 to sign up to our service. Please, drink responsibily.</small>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
 
-            <!-- Callout -->
-            <section class="callout">
-                <h1>The finest whiskeys delivered to your doorstep.</h1>
-                <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s>£19.99</s> <strong><mark>First one is free!</mark></strong></p>
-                <p><small>You must be over 18 to sign up to our service. Please, drink responsibily</small></p>
-            </section>
-            <!-- /.callout -->
+        <hr>
 
-            <hr>
+        <!-- Quotes -->
+        <section class="quotes">
 
-            <!-- Quotes -->
-            <section class="quotes">
-                <h2 class="text-uppercase">Quotes:</h2>
-                <div class="quote">
-                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                    <p>- Jane Doe</p>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Quotes:</h2>
                 </div>
-                <div class="quote">
-                    <p>I haven't been sober for months!</p>
-                    <p>- Jane Doe</p>
-                </div>
-            </section>
-            <!-- /.quotes -->
+            </div>
 
-            <hr>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                        <p>- Jane Doe</p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I haven't been sober for months!</p>
+                        <p>- Jane Doe</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <!-- /.quotes -->
 
-            <!-- Features -->
-            <section class="features">
-                <h2>Features:</h2>
-                <div class="feature">
-                    <h3>Feature 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="feature">
-                    <h3>Feature 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="feature">
-                    <h3>Feature 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </section>
-            <!-- /.features -->
-            
-        </article>
+        <hr>
 
+        <!-- Features -->
+        <section class="features">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            <a class="btn btn-sm btn-light" href="">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            <a class="btn btn-sm btn-light" href="">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            <a class="btn btn-sm btn-light" href="">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="feature">
+                        <h3>Monthly favorites</h3>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="feature">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Origin</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Name 1</td>
+                                    <td>Origin 1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Name 2</td>
+                                    <td>Origin 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Name 3</td>
+                                    <td>Origin 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.features -->
     </body>
-</html>
+</html></article></body></html>
